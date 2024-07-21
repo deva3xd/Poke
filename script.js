@@ -21,42 +21,42 @@ $(document).ready(function() {
                         const weight = dataPokemon.weight;
 
                         $(".info").html(`
-                            <img src="${imageUrl}" width="40%" alt="${selectItem}" /> 
-                            <h1>${selectItem}</h1>
+                            <img src="${imageUrl}" width="30%" alt="${selectItem}" /> 
+                            <h3>${selectItem}</h3>
                             
                             <table>
                                 <tr>
-                                    <td><img src="https://www.svgrepo.com/show/506502/heart-fill.svg" width="20px" /></td>
+                                    <td><img src="https://www.svgrepo.com/show/506502/heart-fill.svg" width="15px" /></td>
                                     <td>HP</td>
                                     <td>:</td>
                                     <td>${hp}</td>
                                 </tr>
                                 <tr>
-                                    <td><img src="https://www.svgrepo.com/show/360818/sword-f.svg" width="20px" /></td>
+                                    <td><img src="https://www.svgrepo.com/show/360818/sword-f.svg" width="15px" /></td>
                                     <td>Attack</td>
                                     <td>:</td>
                                     <td>${atk}</td>
                                 </tr>
                                 <tr>
-                                    <td><img src="https://www.svgrepo.com/show/360745/shield-half.svg" width="20px" /></td>
+                                    <td><img src="https://www.svgrepo.com/show/360745/shield-half.svg" width="15px" /></td>
                                     <td>Defense</td>
                                     <td>:</td>
                                     <td>${def}</td>
                                 </tr>
                                 <tr>
-                                    <td><img src="https://www.svgrepo.com/show/346430/sword-fill.svg" width="20px" /></td>
+                                    <td><img src="https://www.svgrepo.com/show/346430/sword-fill.svg" width="15px" /></td>
                                     <td>Special Attack</td>
                                     <td>:</td>
                                     <td>${sa}</td>
                                 </tr>
                                 <tr>    
-                                    <td><img src="https://www.svgrepo.com/show/491481/shield.svg" width="20px" /></td>
+                                    <td><img src="https://www.svgrepo.com/show/491481/shield.svg" width="15px" /></td>
                                     <td>Special Defense</td>
                                     <td>:</td>
                                     <td>${sd}</td>
                                 </tr>
                                 <tr>
-                                    <td><img src="https://www.svgrepo.com/show/482797/weight-scale-1.svg" width="20px" /></td>
+                                    <td><img src="https://www.svgrepo.com/show/482797/weight-scale-1.svg" width="15px" /></td>
                                     <td>Weight</td>
                                     <td>:</td>
                                     <td>${weight}</td>
@@ -89,42 +89,42 @@ function searchPokemon() {
             const weight = res.weight;
 
             $(".info").html(`
-                <img src="${imageUrl}" width="40%" alt="${res.name}" /> 
-                <h1>${res.name}</h1>
+                <img src="${imageUrl}" width="30%" alt="${res.name}" /> 
+                <h3>${res.name}</h3>
 
                 <table>
                     <tr>
-                        <td><img src="https://www.svgrepo.com/show/506502/heart-fill.svg" width="20px" /></td>
+                        <td><img src="https://www.svgrepo.com/show/506502/heart-fill.svg" width="15px" /></td>
                         <td>HP</td>
                         <td>:</td>
                         <td>${hp}</td>
                     </tr>
                     <tr>
-                        <td><img src="https://www.svgrepo.com/show/360818/sword-f.svg" width="20px" /></td>
+                        <td><img src="https://www.svgrepo.com/show/360818/sword-f.svg" width="15px" /></td>
                         <td>Attack</td>
                         <td>:</td>
                         <td>${atk}</td>
                     </tr>
                     <tr>
-                        <td><img src="https://www.svgrepo.com/show/360745/shield-half.svg" width="20px" /></td>
+                        <td><img src="https://www.svgrepo.com/show/360745/shield-half.svg" width="15px" /></td>
                         <td>Defense</td>
                         <td>:</td>
                         <td>${def}</td>
                     </tr>
                     <tr>
-                        <td><img src="https://www.svgrepo.com/show/346430/sword-fill.svg" width="20px" /></td>
+                        <td><img src="https://www.svgrepo.com/show/346430/sword-fill.svg" width="15px" /></td>
                         <td>Special Attack</td>
                         <td>:</td>
                         <td>${sa}</td>
                     </tr>
                     <tr>    
-                        <td><img src="https://www.svgrepo.com/show/491481/shield.svg" width="20px" /></td>
+                        <td><img src="https://www.svgrepo.com/show/491481/shield.svg" width="15px" /></td>
                         <td>Special Defense</td>
                         <td>:</td>
                         <td>${sd}</td>
                     </tr>
                     <tr>
-                        <td><img src="https://www.svgrepo.com/show/482797/weight-scale-1.svg" width="20px" /></td>
+                        <td><img src="https://www.svgrepo.com/show/482797/weight-scale-1.svg" width="15px" /></td>
                         <td>Weight</td>
                         <td>:</td>
                         <td>${weight}</td>
